@@ -1,7 +1,7 @@
 <x-slider>
   <div class="grid grid-cols-1 sm:grid-cols-2  p-5 lg:mt-4 sm:p-2 lg:grid-cols-3 gap-4 space-x-0 overflow-auto ">
     <div class="sm:col-span-2">
-        <div class="bg-white p-6 rounded-xl mb-8 shadow-lg border-l-4 border-accent">
+        <div class="bg-white p-6 rounded-xl mb-8 shadow-md border-l-4 border-accent">
             <h2 class="text-2xl font-semibold mb-4 text-gray-800">Resumen de tu cuenta</h2>
             <div class="flex flex-wrap justify-center sm:justify-end items-center gap-x-4 mb-3 sm:mb-6">
                 <div class="inline-flex items-center">

@@ -1,6 +1,6 @@
 <a href="detalles/transferencia" class="block">
-<div class="bg-white rounded-lg p-3 mt-2 shadow-sm">
-  <ul role="list" class="divide-y divide-gray-100">
+<div class="items-center ">
+  <ul role="list" class="divide-y divide-gray-200">
     <li 
       class="flex justify-between gap-x-6 py-5  cursor-pointer"
       onclick="toggleModal(true)"
@@ -27,10 +27,10 @@
             <p class="mt-1 truncate text-xs/2 text-gray-500">Movimiento realizado</p>
 
           </div>
-          <p class="mt-2 truncate  text-gray-400"><span class="font-bold text-blue-600">Cuenta de origen:</span> Tarjeta BBVA</p>
+          <p class="mt-2 truncate  text-gray-400"><span class="font-semibold text-blue-600">Cuenta de origen:</span> Tarjeta BBVA</p>
         </div>
       </div>
-      <div class="hidden shrink-0 mt-5 sm:flex sm:flex-col sm:items-end mr-5 ">
+      <div class="hidden shrink-0 mt-5 sm:flex sm:flex-col items-center sm:items-end mr-5 ">
         <h3 class="text-sm font-bold text-red-500">- MX$500.00</h3>      </div>
     </li>
   </ul>

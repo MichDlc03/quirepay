@@ -1,7 +1,7 @@
 <x-slider title="Historial">
     <div x-data="{ tab: 'transferencias' }" class=" flex flex-col h-screen overflow-hidden">
         <div class="sticky top-0 z-10 ">
-            <x-button-historial></x-button-historial>
+            <x-button></x-button>
         </div>
 
         <div class="flex-1 overflow-y-auto space-y-4 mb-10">
