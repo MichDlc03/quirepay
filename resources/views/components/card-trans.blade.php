@@ -25,7 +25,9 @@
               />
             </svg>
             <p class="mt-1 truncate text-xs/2 text-gray-500">Movimiento realizado</p>
+
           </div>
+          <p class="mt-2 truncate  text-gray-400"><span class="font-bold text-blue-600">Cuenta de origen:</span> Tarjeta BBVA</p>
         </div>
       </div>
       <div class="hidden shrink-0 mt-5 sm:flex sm:flex-col sm:items-end mr-5 ">

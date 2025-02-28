@@ -1,14 +1,14 @@
 <x-slider title="Cuenta y Saldo">
 
     <div class=" text-primary-foreground min-h-screen lg:p-4  overflow-y-hidden ">
-        <header class="relative  flex justify-end items-center hidden md:flex "  >
+        {{-- <header class="relative  flex justify-end items-center hidden md:flex "  >
             <button type="button" class="py-2 px-4 mr-5 lg:mb-5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-quire text-gray-800 hover:bg-yellow-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-900 dark:hover:bg-white dark:focus:bg-quire">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M12.75 7a.75.75 0 0 0-1.5 0v4.25H7a.75.75 0 0 0 0 1.5h4.25V17a.75.75 0 0 0 1.5 0v-4.25H17a.75.75 0 0 0 0-1.5h-4.25z"/>
                 </svg>
                 Agregar saldo
             </button>
-        </header>
+        </header> --}}
         {{-- BUTTON SOLO EN MOVIL --}}
         <div class="grid grid-cols-1 mb-2 sm:mt-20 sm:hidden">
             <button type="button" class="w-full py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-quire text-gray-800 hover:bg-yellow-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-900 dark:hover:bg-white dark:focus:bg-quire">
@@ -19,7 +19,7 @@
             </button>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:p-5 w-full md:mt-5 lg:mt-0">
-            <div class="w-lg h-64 mr-auto bg-red-100 rounded-lg relative text-white shadow-lg ">
+            <div class="w-lg h-auto mr-auto bg-red-100 rounded-lg relative text-white shadow-lg ">
                 <img class="relative object-cover w-full h-full rounded-xl" src="https://i.imgur.com/Zi6v09P.png">
                 <div class="w-full px-8 absolute top-8">
                     <div class="flex justify-between">
@@ -68,11 +68,14 @@
                     <h2 class="text-xl font-semibold text-gray-800">Información de tu cuenta</h2>
                 </header>
                 <div class="p-4 space-y-2">
-                    <p class="font-semibold text-gray-700">Nombre: 
-                        <span class="text-gray-600">Jonas Abarca Ponce</span>
+                    <p class="font-semibold text-gray-700">Nombre titular: 
+                        <span class="text-gray-600 font-normal">Jonas Abarca Ponce</span>
+                    </p>
+                    <p class="font-semibold text-gray-700">Nombre de la tarjeta: 
+                        <span class="text-gray-600 font-normal">Nu México</span>
                     </p>
                     <p class="font-semibold text-gray-700">Número de cuenta: 
-                        <span class="text-gray-600 tracking-wider">4642 3489 9867 7632
+                        <span class="text-gray-600 tracking-wider font-normal">4642 3489 9867 7632
 
                         </span>
                     </p>
