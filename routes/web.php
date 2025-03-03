@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'dashboard');
 Route::view('/cuenta', 'banca/cuenta-saldo');
-Route::view('/agregarfondos', 'banca/agregar-fondos');
+Route::view('/detalle/card', 'banca/detalles_tarjeta');
 Route::view('/transferencias', 'transferencias');
 Route::view('/viajes', 'viajes');
 Route::view('/historial', 'historial/historial');

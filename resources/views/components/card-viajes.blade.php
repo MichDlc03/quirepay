@@ -1,5 +1,5 @@
 <a href="detalles/viaje" class="block">
-<div class="bg-white rounded-lg p-3 shadow-sm ">
+<div>
   <ul role="list" class="divide-y divide-gray-100">
     <li 
       class="flex justify-between gap-x-6 py-5 cursor-pointer" 

@@ -1,4 +1,4 @@
-<div class="sm:col-span-2 lg:-mt-4 bg-white border border-gray-200 shadow-md rounded-xl h-auto ">
+<div class="sm:col-span-2 lg:-mt-4 bg-white border border-gray-200 shadow-md rounded-xl h-auto divide-y divide-gray-100">
     <header class=" m-5">
         <h2 class="text-gray-800 font-semibold text-l">Movimientos recientes</h2>
     </header>
