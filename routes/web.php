@@ -12,5 +12,5 @@ Route::view('/detalles/transferencia', 'historial/detalles-trans'); // agregar {
 Route::view('/detalles/viaje', 'historial/detalles-viajes');// agregar {id} 
 Route::view('/pagosyservicios', 'pagosyservicios');
 Route::view('/soporte', 'soporte');
-Route::view('/perfil', 'perfil');
+Route::view('/perfil', 'usuario/perfil');
 Route::view('/configuraciones', 'configuraciones');

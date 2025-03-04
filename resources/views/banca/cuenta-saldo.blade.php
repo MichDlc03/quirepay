@@ -54,7 +54,6 @@
           </button>
         </div>
         <div class="p-4 overflow-y-auto">
-          <p class="mt-1 text-gray-800 dark:text-neutral-400">
             <div class="m-5">
                     <input type="text" id="input-label" class="py-3 px-4 block w-full border-gray-200 bg-gray-100 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Nombre de la tarjeta">
             </div>
@@ -89,7 +88,6 @@
             <div class="m-5">
                 <input type="text" name="direccion" class="py-3 px-4 block w-full border-gray-200 bg-gray-100 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Dirección" required>
             </div>
-            </p>
         </div>
         <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t dark:border-neutral-700">
           <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" data-hs-overlay="#hs-scale-animation-modal">
